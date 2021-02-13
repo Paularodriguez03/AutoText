@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(90deg, #7d5fff, #7158ee);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  /*si el contenido es intenta desbordar los corta */
+  margin: 0;
+}
+
+h1{
+  color: white;
+}
+
+div {
+  position: absolute;
+  bottom: 20px;
+  background: rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  font-size: 18px;
+}
+/*los estilos del div ubican el input en la parte inferiro de la pantalla*/
+
+input {
+  width: 50px;
+  padding: 5px;
+  font-size: 18px;
+  background-image: linear-gradient(90deg, #7d5fff, #7158ee);
+  border: none;
+  text-align: center;
+}
+
+input:focus {
+  outline: none;
+}
